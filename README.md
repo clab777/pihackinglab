@@ -21,6 +21,8 @@ You need to build your SD Card with Raspberry Pi OS Lite (64-bit).  It's very ea
 
 You need the Raspberry Pi Imager tool, which can be downloaded from: https://www.raspberrypi.com/software/
 
+![App Template Image](https://github.com/gerardobrien/pihackinglab/blob/main/images/rasp-pi-lite-64-bit.png)
+
 *******
 
 ## Part 2 - Updates & Cockpit install
