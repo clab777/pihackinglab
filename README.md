@@ -15,7 +15,7 @@ Video is here:  https://www.youtube.com/@gerardobrien
 
 *******
 
-## Part 1 - Build Pi OS on your SD Card
+## Step 1 - Build Pi OS on your SD Card
 
 You need to build your SD Card with Raspberry Pi OS Lite (64-bit).  It's very easy to do, just follow the video instructions.
 
@@ -25,7 +25,7 @@ You need the Raspberry Pi Imager tool, which can be downloaded from: https://www
 
 *******
 
-## Part 2 - Updates & Cockpit install
+## Step 2 - Updates & Cockpit install
 
 SSH to your Pi and run updates
 
@@ -54,7 +54,7 @@ Log into Cockpit using the username and password for your Pi.
 
 *******
 
-## Part 3 - Install Docker & Portainer
+## Step 3 - Install Docker & Portainer
 
 Install Docker
 
@@ -83,9 +83,45 @@ https://YOUR-PI-IP=ADDRESS:9000
 
 ![Portainer](https://github.com/gerardobrien/pihackinglab/blob/main/images/portainer.png)
 
+*******
+
+## Step 4 - Portainer Network Changes
+
+Following the video instructions, create the two additional networks you need.
+
+Yours will be different but I'm using 10.96.17.0/24 for my lab network, my gateway is 10.96.17.254.  I'm also using this range of addresses for my containers, 10.96.17.128/27.
+
+![Portainer](https://github.com/gerardobrien/pihackinglab/blob/main/images/portainer.png)
+
+*******
+
+## Step 5 - Container Builds
+
+Build the following containers:
 
 
 
 
+## Step 6 - TryHackMe & HackTheBox VPN's
+
+Install OpenVPN on the Kali Container
+
+```
+sudo apt install openvpn
+```
+
+Log into TryHackMe & HackTheBox and download the VPN configiration file.
+
+Then switch directory to the Downloads folder
+
+```
+cd Downloads
+```
+
+Activate VPN's
+
+```
+sudo openvpn NAME-OF-VPN-CONFIG-FILE
+```
 
 
