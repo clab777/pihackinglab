@@ -93,7 +93,9 @@ Following the video instructions, create the two additional networks you need.
 
 Yours will be different but I'm using 10.96.17.0/24 for my lab network, my gateway is 10.96.17.254.  I'm also using this range of addresses for my containers, 10.96.17.128/27.
 
-![Portainer](https://github.com/gerardobrien/pihackinglab/blob/main/images/portainer.png)
+![Portainer](https://github.com/gerardobrien/pihackinglab/blob/main/images/portainer-networks.png)
+
+
 
 *******
 
@@ -101,7 +103,7 @@ Yours will be different but I'm using 10.96.17.0/24 for my lab network, my gatew
 
 Follow the video steps to build the following containers:
 
-![Portainer](https://github.com/gerardobrien/pihackinglab/blob/main/images/portainer.png)
+![Portainer](https://github.com/gerardobrien/pihackinglab/blob/main/images/lab-containers1.png)
 
 | Architecture | Container | URL |
 | ------------ | ----------- | --- |
