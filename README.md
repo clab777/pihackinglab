@@ -1,7 +1,7 @@
 # A tiny hacking lab!
 I needed something small and quiet, easy to move around and travel with... and the Raspberry Pi 5 fits the bill.  This is a walkthrough on how to build your own tiny hacking lab.
 
-Video is here:  https://www.youtube.com/@gerardobrien
+Video is here:  https://www.youtube.com/watch?v=Yid0GxVryBs
 
 ### Requirements
 - Raspberry Pi 5 (im using 16gb version in the video, but 8gb version should work)
