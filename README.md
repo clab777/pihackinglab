@@ -95,7 +95,7 @@ Yours will be different but I'm using 10.96.17.0/24 for my lab network, my gatew
 
 ![Portainer](https://github.com/gerardobrien/pihackinglab/blob/main/images/portainer-networks.png)
 
-🔥 ![image](https://github.com/user-attachments/assets/99255e89-e6da-4a8a-84ce-7f2c21bfdb6e)
+![image](https://github.com/user-attachments/assets/99255e89-e6da-4a8a-84ce-7f2c21bfdb6e)
  Warning: Be aware, these steps might not work as described if your RPI is connected through Wi-Fi. After several attempts, I had to use an Ethernet cable.
 
 *******
